@@ -1,0 +1,68 @@
+# --- R Session Files ---
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# --- R Markdown / Quarto Caches ---
+*_cache/
+*_files/
+.Rmd.*
+.qmd.*
+htmlwidgets/
+site_libs/
+
+# --- Environments ---
+.env
+renv/
+.Renviron
+.packrat/
+*.lock
+
+# --- Data (raw / heavy / private) ---
+data/**/*.zip
+data/**/*.tar.gz
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.json
+data/**/*.geojson
+data/**/*.shp
+data/**/*.shx
+data/**/*.dbf
+data/**/*.prj
+data/**/*.tif
+data/**/*.tiff
+data/**/*.gpkg
+data/**/*.gdb
+data/**/*.kml
+data/**/*.kmz
+
+# --- Outputs (rendered or exported maps, figs, etc.) ---
+outputs/**/*.png
+outputs/**/*.jpg
+outputs/**/*.pdf
+outputs/**/*.svg
+outputs/**/*.mp4
+
+# --- Logs / temporary files ---
+*.log
+*.tmp
+*.bak
+*.swp
+
+# --- IDE / System ---
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# --- MacOS Metadata ---
+.DS_Store
+
+# --- Keep small example data only ---
+data/*
+!data/sample/
